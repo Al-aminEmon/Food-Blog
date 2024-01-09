@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.containar{
+    padding: 0 370px;
+
+}
+.flex-top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 0;
+    /* position: fixed; */
+
+}
+.flex-top div>i{
+    padding: 10px 15px;
+}
+.flex-top div>i:hover{
+    background-color: rgb(175, 175, 175);
+}
+.flex-food{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin: 10px 0;
+}
+.food-qulati{
+    width: 24%;
+
+}
+.food-image img{
+    width: 100% ;
+    height: 400px;
+}
+
+.food-about{
+    padding: 10px 0;    
+}
+.food-about h2{
+    padding: 6px 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.food-about p{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.number-contain{
+    text-align: center;
+    padding: 20px 0;
+}
+.number-contain span{
+    padding: 15px 18px;
+    font-size: 16px;
+    /* background-color:rgb(184, 184, 184); */
+    font-family: 'Poppins', sans-serif;
+
+}
+.number-contain span:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.tag{
+    padding: 30px 0;
+    /* color: rgb(151, 151, 151); */
+}
+
+
+
+
+
+.chef{
+    padding: 36px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+.heading h2{
+    /* padding: 40px 0; */
+    margin: 10px 0;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+.chef-about{
+    margin: 25px 0;
+}
+
+.chef-about h2{
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.chef-about >p>i{
+    font-size: 17px;
+}
+.chef-about p:last-child{
+    font-size: 17px;
+    padding: 25px 0;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+.line hr{
+    /* padding: 20px 0; */
+    color: rgb(250, 250, 250);
+}
+.fotar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 ;
+}
+
+.fotar >div{
+    width: 30%;
+}
+
+.fotar >div h2{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.footer p, span{
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: center
+
+}
+
+.blog-post{
+
+}
+
+
+.blog-div img{
+    width: 40px;
+    height: 50px;
+    display: flex ;
+
+
+}
+.blog-div{
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .containar{
+        padding: 0 20px;
+    }
+    .flex-food{
+        flex-wrap: wrap;
+    }
+    .food-qulati{
+        width: 100%;
+    }
+    .fotar{
+        flex-wrap: wrap;
+    }
+    .fotar > div{
+        width: 100%;
+    }
+    .picters img{
+        width: 100%;
+    }
+
+} 
